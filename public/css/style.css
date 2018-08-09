@@ -1,0 +1,1323 @@
+/*
+Cau truc cua box
+margin lề ngoài của box
+border viền của box
+padding phan lót bên trong box ngăn với nội dung
+content phần nội dung bên trong box
+*/
+
+body {
+	width: 100%;
+	font-family:sans-serif;
+	color: #333;
+}
+
+* {
+	padding: 0;
+	margin:0;
+}
+
+.color-yellow {
+		color: #c9a131;
+}
+
+.banner-button{
+	text-align: center;
+	padding-top: 7%;	
+}
+
+.trang2-content {
+	display: table;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.clear-both{
+	clear: both;
+}
+
+
+#trang3 {
+	background-image: url(../images/trang3.png);
+	width:  100%;
+}
+
+h2 {
+	font-family: 'Yeseva One';
+	text-align: center;
+	font-size:36px;
+	color:#cc9900;
+	margin-top: 10%;
+}
+
+	
+.trang3a {
+    height: 2em;
+    margin-top: 2%;
+    background-image: url(../images/trang3a.png);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+
+.p16a {
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	font-size: 16px;
+	color:#5d5d5d;
+}
+
+.p16c {
+    font-family: 'Lato';
+	padding-top: 2.5%;
+    text-align: center;
+    font-size: 16px;
+    color: #5d5d5d;
+}
+
+
+.p25 {
+	font-family: 'Lato';
+	font-size: 25px;
+	color: white;
+}
+
+#p18 {
+    font-family: 'Lato';
+	font-size: 18px;
+	color: white;
+	margin-top: 5%;
+	margin-bottom: 10%;
+}
+
+
+
+/*
+	*Responsive
+ */
+
+/*Desktop*/
+
+
+@media screen and  (min-width: 1024px) {
+	#trang1 {
+		width:  100%;
+		height: 100vh;
+		background-image: url(../images/restaurant1.jpg);
+	}
+
+	a {
+	color:white;
+	text-decoration: none;/*khong co gach chan*/
+	margin-left: 20px;
+
+	}
+
+	.trang1a {
+	margin-top: 5%;
+    height: 45px;
+    width: 100%;
+    background-image: url(../images/trang1a.png);
+    background-repeat: no-repeat;
+    background-position: center;
+	}
+
+	.trang2a {
+		margin: 35px auto;
+		width:250px;
+		height: 30px;
+		background-image: url(../images/trang4a.png);
+		background-repeat: no-repeat;
+	}
+
+	.text-center-white {
+	font-family: 'Yeseva One';
+	text-align: center;
+	color: white;
+	margin-top: 10%;
+	}
+
+	.trang3a {
+		margin: 10px auto 0px auto;
+	    width: 250px;
+	    height: 30px;
+	    background-image: url(../images/trang3a.png);
+	    background-repeat: no-repeat;
+	}
+
+	.trang4a {
+	    margin: 10px auto 0px auto;
+	    width: 250px;
+	    height: 30px;
+	    background-image: url(../images/trang4a.png);
+	    background-repeat: no-repeat;
+	}
+
+	#banner p {
+		font-family: 'Yeseva One';
+		width: 70%;
+	    margin: 0px auto;
+	    padding-top: 10%;
+	    color: white;
+	    font-size: 70px;
+	    text-align: center
+	}
+	/**/
+	/* ==Menu== */
+
+	#logo {
+		font-size: 36px;
+		margin-top: 2%;
+		float: left;
+	    margin-left: 100px;;
+		color: white;
+	}
+
+	#header-top {
+	    list-style-type: none;
+	    float: right;
+	    margin: 30px auto;
+	    font-size: 21px;
+	    color: white;
+	}
+
+	#header-top ul li{
+		color: #f1f1f1;
+		display: inline;
+	}
+
+	
+
+	.button-left{
+		border: 1px solid black;
+	    padding: 20px 50px 20px 50px;
+	    display: inline;
+	    background-color: rgba(0,0,0,0.5);
+	    color: white;
+	    margin-right: 10px;
+	    margin-left: 18%;
+	}
+	.button-right{
+		border: 1px solid white;
+	    padding: 20px 50px 20px 50px;
+	    display: inline;
+	    background-color: rgba(255, 255, 255,0.5);
+	    color: black;
+	    margin-right: 18%;
+	    margin-left: 10px;
+	}
+
+
+	.button-mid{
+		border: 1px solid white;
+	    background-color: #c9a131;
+	    text-align: center;
+	    padding: 2% 10% 2% 10%;
+	    margin: 0px 35% 0px 25%;
+	    color: white;
+	}
+
+	.info-cooker {
+	    margin-top: 30px;
+	    width: 35%;
+	    float: left;
+	    margin-left: 100px;
+	}
+
+	.cook {
+		margin-top: 30px;
+		float: right;
+	}
+
+	.lephai {
+	    background-color: rgba(0,0,0,0.5);
+	    float: right;
+	    height: 470px;
+	    width: 500px;
+	    margin-right: 5%;
+	    margin-top: 7%;
+	    margin-bottom: 10%
+	}
+
+	.top-bottom10 {
+		margin: 10%;
+	}
+
+	.mota {
+
+		text-align: justify;
+		color: white;
+		width: 410px;
+		margin: 0 auto;
+		margin-top: 6%;
+	}
+
+	#trang2 {
+		background-image: url(../images/trang6.png);
+		width: 100%;
+	}
+
+	.lephai li {
+		display: inline;
+		font-size: 10px;
+		padding: 10px 10px;
+	}
+
+	.text-center-padding2{
+	text-align: center;
+	padding-top: 2%;
+	}
+
+	.text-center-padding3{
+		text-align: center;
+		padding-top: 3%;
+	}
+
+
+	.text-center-padding5 {
+	    text-align: center;
+	    padding-top: 5%;
+	}
+
+
+	.text-center-padding10{
+		text-align: center;
+		padding-top: 10%;
+	}
+
+	.p36 {
+		text-align: center;
+	    font-size: 36px;
+	    color: #cc9900;
+	    font-family: 'Yeseva One';
+	}
+
+	#img2 {
+		padding-left: 30px;
+		margin-top: 30px;
+		text-align: center;
+	}
+
+	h3 {
+		font-size: 10px;
+	}
+
+	.box-left {
+	    width: 34%;
+	    float: left;
+	    margin-left: 10%;
+	    padding-bottom: 4%;
+	}
+
+	.box-right {
+		width: 34%;
+		float: right;
+		margin-right: 10%;
+		padding-bottom: 4%;
+	}
+
+	.list {
+		list-style-type: none;
+	}
+
+	#trang4 {
+		width: 100%;
+		margin: 0 auto;
+		background-image: url(../images/trang6.png);
+	}
+
+	.name-eating {
+		margin-top: 30px;
+		float: left;
+		color: #c89f2d;
+		font-size: 21px;
+	}
+
+	.cost {
+		margin-top: 30px;
+		color: #c89f2d;
+		font-size: 21px;
+		float: right;
+	}
+
+
+	.border-bottom {
+		border-bottom: 1px solid #e2dbbd;
+		display: table;/*bao gom thi phai table*/
+		width: 100%;
+	}
+
+	.note {
+		font-family: 'Lato';
+		text-align: left;
+	    font-size: 16px;
+	    margin-top: 3%;
+	}
+
+	#trang5 {
+		background-image: url(../images/trang5.png);
+		width: 100%;
+
+	}
+
+	#middle {
+		border: 1px solid black;
+		background-color: rgba(0,0,0,0.5);
+		color: white;
+		text-align: center;
+	}
+
+	.nhulol {    
+		padding-top: 100px;
+	    padding-bottom: 100px;
+	    margin: 0 auto;
+	    height: auto;
+	    width: 40%;
+	}
+
+	#trang6 {
+		background-image: url(../images/trang6.png);
+		width: 100%;
+	}
+
+	.left {
+	    float: left;
+	    width: 50%;
+	    height: auto;
+	    display: table; 
+	    padding-top: 50px;
+	    padding-bottom: 50px
+	}
+
+	#img-left {
+		float: left;
+	}
+
+	#img-right {
+		float: right;
+	}
+
+	.right {
+	    float: right;
+	    width: 50%;
+	    padding-top: 50px;
+	    padding-bottom: 50px;
+	    height: auto;
+	}
+	#text-order {
+		width: 70%;
+	    /* float: right; */
+	    margin-left: 10%;
+	}
+
+	#img6 {
+		margin-top: 20px;
+		text-align: center;
+	}
+	/*.p36{
+		text-align: center;
+	    font-size: 36px;
+	    color: #cc9900;
+	}*/
+
+	#order {
+		margin-top: 8%;
+	    width: 68%;
+	    margin-left: 10%;
+	}
+
+	.form {
+		width: 175px;
+		height: 30px;
+	}
+
+	.name-date {
+		margin-top: -5%;
+	    float: left;
+	}
+
+	.mail-number {
+		margin-top: -5%;
+		float: right;
+	}
+
+	.p14 {
+	/*	width: 30px;
+		height: 100px;*/
+		text-align: left;
+	    font-size: 14px;
+	    color: #c9a131;
+	   /* padding: 10px 20px;*/
+	}
+
+	#book-now{
+	        margin-top: 5%;
+	}
+
+	#trang7 {
+		background-image: url(../images/trang7.png);
+		width: auto;
+	}
+
+	.block-width {
+		padding: 50px 0px;
+	}
+
+	.container {
+		display: table;
+		margin: 0px auto;
+	    width: 1200px;
+	}
+
+	#block-left {
+		padding: 50px 0px;
+		width: 25%;
+	    height: auto;
+	    float: left;
+	    margin-left: 10%;
+	    text-align: center;
+	}
+
+	#block-mid {
+		padding: 50px 0px;
+		width: 25%;
+	    height: 172px;
+	    float: left;
+	    margin: 0px 2.5%;
+	    text-align: center;
+	}
+
+	#block-right {
+		padding: 50px 0px;
+		width: 25%;
+		height: 172px;
+	    float: right;
+	    margin-right: 10%;
+	    text-align: center;
+	}
+
+	.p21 {
+		font-family: 'Yeseva One';
+		text-align: center;
+	    font-size: 21px;
+	    color: #fefefe;
+	}
+
+	.p16b {
+		font-family: 'Lato';
+		text-align: center;
+	    font-size: 16px;
+	    color: #ffffff;
+	}
+
+	.icon-size {
+		padding-top: 50px;
+	    width: 250px;
+	    display: table;
+	    margin: 0px auto;
+	}
+	.zero {
+		padding-top: 50px;
+	}
+}
+
+@media screen and (max-width:768px) {
+	#trang1 {
+		width:  100%;
+		background-image: url(../images/restaurant1.jpg);
+	}
+
+	.container {
+	    display: table;
+	    margin: 0px auto;
+	    width: 100%;
+	}
+
+	#logo {
+		margin: 3% 10%;
+    	text-align: center;
+    	font-size: 36px;
+    	color: white;
+	}
+
+	#header-top {
+		list-style-type: none;
+	    /* float: right; */
+	    text-align: center;
+	    margin: 3% auto;
+	    font-size: 10px;
+	}
+
+	#header-top ul li{
+		margin: 0.5%;
+    	color: #f1f1f1;
+    	display: inline;
+	}
+
+	a {
+	color:white;
+	text-decoration: none;/*khong co gach chan*/
+	}
+
+	.trang1a {
+	   	margin-top: 4%;
+	   	height: 3em;
+	    width: 100%;
+	    background-image: url(../images/trang1a.png);
+	    background-repeat: no-repeat;
+		background-position: center;
+		background-size: 35%;
+	}
+
+	.content {
+    	margin-bottom: 4%;
+	}
+
+	#banner p {
+		font-family: 'Yeseva One';
+    	width: 70%;
+	    margin: 0px auto;
+	    padding-top: 10%;
+	    color: white;
+	    /* font-size: 70px; */
+	    text-align: center;
+	}
+
+	.banner-button {
+	    text-align: center;
+	    padding-top: 0px;
+	    margin: 7% auto;
+	}	
+	
+	.button-left{
+			border: 1px solid black;
+		    padding: 5px 10px 5px 10px;
+		    display: inline;
+		    background-color: rgba(0,0,0,0.5);
+		    color: white;
+		    margin-right: 5px;
+	}
+
+	.button-right{
+		    border: 1px solid white;
+		    padding: 5px 10px 5px 10px;
+		    display: inline;
+		    background-color: rgba(255, 255, 255,0.5);
+		    color: black;
+		    margin-left: 5px;
+	}
+
+	#trang2 {
+		width:  100%;
+		background-image: url(../images/trang6.png);
+	}
+
+	.info-cooker {
+	    margin-top: 3%;
+	    width: 100%;
+	}
+
+	.trang2a {
+		margin: 3% auto;
+		height: 2em;/*1em = 16 px*/
+		background-image: url(../images/trang4a.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 50%;
+	}
+
+
+	#img2 {
+		padding-left: 30px;
+		margin-top: 30px;
+		text-align: center;
+	}
+
+	.width100{
+		width: 100%;
+	}
+
+	.p36 {
+		text-align: center;
+	    font-size: 30px;
+	    color: #cc9900;
+	    font-family: 'Yeseva One';
+	}
+
+	.text-center-white {
+	font-family: 'Yeseva One';
+	text-align: center;
+	color: white;
+	margin-top: 5%;
+	}
+
+	.lephai {
+		background-color: rgba(0,0,0,0.5);
+	    float: right;
+	    color: #ffffff;
+	    margin: 10% 5%;
+	    padding: 3%;
+	}
+
+	.trang3a {
+		background-size: 75%;
+	}
+
+
+	.lephai h2 {
+		font-size: 30px;
+	}
+
+	.lephai li{
+		display: inline;
+	}
+	
+	.width30{
+		width: 30%;
+	}
+
+	.text-center-padding2{
+		text-align: center;
+		padding-top: 2%;
+	}
+
+	.text-center-padding3{
+		text-align: center;
+		padding-top: 3%;
+	}
+
+
+	.text-center-padding5 {
+	    text-align: center;
+	    padding-top: 5%;
+	}
+
+
+	.text-center-padding10{
+		text-align: center;
+		padding-top: 10%;
+	}
+	
+	.ul {
+		margin: 10% 3% 10% 8%;
+	}
+	
+
+	.box-left {
+	    width: 95%;
+	    margin: 10% auto;
+	}
+
+	.box-right {
+	    width: 95%;
+	    margin: 10% auto;
+	}
+
+	.list {
+		list-style-type: none;
+	}
+
+	#trang4 {
+		width: 100%;
+		margin: 0 auto;
+		background-image: url(../images/trang6.png);
+	}
+	
+	.trang4a {
+		margin: 3% auto;
+		height: 2em;/*1em = 16 px*/
+		background-image: url(../images/trang4a.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 75%;
+	}
+
+	.name-eating {
+		margin-top: 2%;
+		margin-bottom: 2%;
+		float: left;
+		color: #c89f2d;
+		font-size: 21px;
+	}
+
+	.cost {
+		margin-top: 2%;
+		color: #c89f2d;
+		font-size: 21px;
+		float: right;
+	}
+
+
+	.border-bottom {
+		border-bottom: 1px solid #e2dbbd;
+		display: table;/*bao gom thi phai table*/
+		width: 100%;
+	}
+
+	.note {
+		font-family: 'Lato';
+		text-align: left;
+	    font-size: 12px;
+	    margin-top: 3%;
+	}
+
+
+	#trang5 {
+		background-image: url(../images/trang5.png);
+		width: 100%;
+
+	}
+
+	#middle {
+		border: 1px solid black;
+		background-color: rgba(0,0,0,0.5);
+		color: white;
+		text-align: center;
+		padding: 3%;
+	}
+
+	.nhulol {    
+		margin: 10% auto;
+    	width: 90%;
+	}
+
+	.p25 {;
+		font-size: 14px;
+	}
+
+	#p18 {
+		font-size: 12px;
+	}
+	
+	#trang6 {
+		background-image: url(../images/trang6.png);
+		width: 100%;
+	}
+
+	.left {    
+		margin: 10% 5%;	
+	}
+
+	#img-left {
+	    margin-top: 10%;
+	}
+
+	#img-right {
+	    margin-top: 10%;
+	}
+
+	.right {
+   		padding-top: 5%;
+   		padding-bottom: 12%;
+	}
+	#text-order {
+		width: 90%;
+	    margin: 10% 5%;
+	}
+
+	#img6 {
+		margin-top: 20px;
+		text-align: center;
+	}
+
+	#order {
+	    width: 90%;
+	    margin:10% auto;
+	}
+	
+	#middle h2 {
+		font-size: 30px;
+	}
+
+	.form {
+		width: 100%;
+		height: 33px;
+	}
+
+	.name-date {
+		margin-top: 5%;
+	}
+
+	.mail-number {
+		margin-top: 12%;
+	}
+
+	.p14 {
+		text-align: left;
+	    font-size: 19px;
+	    color: #c9a131;
+	}
+
+	#book-now{
+	        margin-top: 5%;
+	}
+
+	.button-mid{
+		border: 1px solid white;
+		background-color: #c9a131;
+		text-align: center;
+		padding: 4% 10% 4% 10%;
+		margin: 0% 27%;
+		color: white;
+	}
+	
+	#trang7 {
+		background-image: url(../images/trang7.png);
+		width: auto;
+	}
+
+	#trang7 .trang3a {
+			background-size: 50%;
+	}
+
+	.block-width {
+		padding: 50px 0px;
+	}
+
+	#block-left {
+	    width: 90%;
+	    margin: 5% auto;
+	    text-align: center;
+	}
+
+	#block-mid {
+	    width: 90%;
+	    margin: 15% auto;
+	    text-align: center;
+	}
+
+
+
+	#block-right {
+	    width: 90%;
+	    margin: 15% auto;
+	    text-align: center;
+	}
+
+	.p21 {
+		font-family: 'Yeseva One';
+		text-align: center;
+	    font-size: 21px;
+	    color: #fefefe;
+	}
+
+	.p16b {
+		font-family: 'Lato';
+		text-align: center;
+	    font-size: 16px;
+	    color: #ffffff;
+	}
+
+	.icon-size {
+		padding-top: 50px;
+	    width: 250px;
+	    display: table;
+	    margin: 0px auto;
+	}
+	.zero {
+		padding-top: 15%;
+	}
+}
+
+/*Phone*/
+
+@media screen and (max-width: 576px){
+	#trang1 {
+		width:  100%;
+		background-image: url(../images/restaurant1.jpg);
+	}
+
+	.container {
+	    display: table;
+	    margin: 0px auto;
+	    width: 100%;
+	}
+
+	#logo {
+		margin: 2% auto;
+    	text-align: center;
+    	font-size: 20px;
+    	color: white;
+	}
+
+	#header-top {
+		list-style-type: none;
+	    /* float: right; */
+	    text-align: center;
+	    margin: 3% auto;
+	    font-size: 10px;
+	}
+
+	#header-top ul li{
+		margin: 0.5%;
+    	color: #f1f1f1;
+    	display: inline;
+	}
+
+	a {
+	color:white;
+	text-decoration: none;/*khong co gach chan*/
+	}
+
+	.trang1a {
+	   	margin-top: 4%;
+	   	height: 3em;
+	    width: 100%;
+	    background-image: url(../images/trang1a.png);
+	    background-repeat: no-repeat;
+		background-position: center;
+		background-size: 35%;
+	}
+
+	.content {
+    	margin-bottom: 4%;
+	}
+
+	#banner p {
+		font-family: 'Yeseva One';
+    	width: 70%;
+	    margin: 0px auto;
+	    padding-top: 10%;
+	    color: white;
+	    /* font-size: 70px; */
+	    text-align: center;
+	}
+
+	.banner-button {
+	    text-align: center;
+	    padding-top: 0px;
+	    margin: 7% auto;
+	}	
+	
+	.button-left{
+			border: 1px solid black;
+		    padding: 5px 10px 5px 10px;
+		    display: inline;
+		    background-color: rgba(0,0,0,0.5);
+		    color: white;
+		    margin-right: 5px;
+	}
+
+	.button-right{
+		    border: 1px solid white;
+		    padding: 5px 10px 5px 10px;
+		    display: inline;
+		    background-color: rgba(255, 255, 255,0.5);
+		    color: black;
+		    margin-left: 5px;
+	}
+
+	#trang2 {
+		width:  100%;
+		background-image: url(../images/trang6.png);
+	}
+
+	.info-cooker {
+	    margin-top: 3%;
+	    width: 100%;
+	}
+
+	.trang2a {
+		margin: 3% auto;
+		height: 2em;/*1em = 16 px*/
+		background-image: url(../images/trang4a.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 50%;
+	}
+
+
+	#img2 {
+		padding-left: 30px;
+		margin-top: 30px;
+		text-align: center;
+	}
+
+	.width100{
+		width: 100%;
+	}
+
+	.p36 {
+		text-align: center;
+	    font-size: 30px;
+	    color: #cc9900;
+	    font-family: 'Yeseva One';
+	}
+
+	.text-center-white {
+	font-family: 'Yeseva One';
+	text-align: center;
+	color: white;
+	margin-top: 5%;
+	}
+
+	.lephai {
+		background-color: rgba(0,0,0,0.5);
+	    float: right;
+	    color: #ffffff;
+	    margin: 10% 5%;
+	    padding: 3%;
+	}
+
+	.trang3a {
+		background-size: 75%;
+	}
+
+
+	.lephai h2 {
+		font-size: 30px;
+	}
+
+	.lephai li{
+		display: inline;
+	}
+	
+	.width30{
+		width: 30%;
+	}
+
+	.text-center-padding2{
+		text-align: center;
+		padding-top: 2%;
+	}
+
+	.text-center-padding3{
+		text-align: center;
+		padding-top: 3%;
+	}
+
+
+	.text-center-padding5 {
+	    text-align: center;
+	    padding-top: 5%;
+	}
+
+
+	.text-center-padding10{
+		text-align: center;
+		padding-top: 10%;
+	}
+	
+	.ul {
+		margin: 10% 3% 10% 8%;
+	}
+	
+
+	.box-left {
+	    width: 95%;
+	    margin: 10% auto;
+	}
+
+	.box-right {
+	    width: 95%;
+	    margin: 10% auto;
+	}
+
+	.list {
+		list-style-type: none;
+	}
+
+	#trang4 {
+		width: 100%;
+		margin: 0 auto;
+		background-image: url(../images/trang6.png);
+	}
+	
+	.trang4a {
+		margin: 3% auto;
+		height: 2em;/*1em = 16 px*/
+		background-image: url(../images/trang4a.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 75%;
+	}
+
+	.name-eating {
+		margin-top: 2%;
+		margin-bottom: 2%;
+		float: left;
+		color: #c89f2d;
+		font-size: 21px;
+	}
+
+	.cost {
+		margin-top: 2%;
+		color: #c89f2d;
+		font-size: 21px;
+		float: right;
+	}
+
+
+	.border-bottom {
+		border-bottom: 1px solid #e2dbbd;
+		display: table;/*bao gom thi phai table*/
+		width: 100%;
+	}
+
+	.note {
+		font-family: 'Lato';
+		text-align: left;
+	    font-size: 12px;
+	    margin-top: 3%;
+	}
+
+
+	#trang5 {
+		background-image: url(../images/trang5.png);
+		width: 100%;
+
+	}
+
+	#middle {
+		border: 1px solid black;
+		background-color: rgba(0,0,0,0.5);
+		color: white;
+		text-align: center;
+		padding: 3%;
+	}
+
+	.nhulol {    
+		margin: 10% auto;
+    	width: 90%;
+	}
+
+	.p25 {;
+		font-size: 14px;
+	}
+
+	#p18 {
+		font-size: 12px;
+	}
+	
+	#trang6 {
+		background-image: url(../images/trang6.png);
+		width: 100%;
+	}
+
+	.left {    
+		margin: 10% 5%;	
+	}
+
+	#img-left {
+	    margin-top: 10%;
+	}
+
+	#img-right {
+	    margin-top: 10%;
+	}
+
+	.right {
+   		padding-top: 5%;
+   		padding-bottom: 12%;
+	}
+	#text-order {
+		width: 90%;
+	    margin: 10% 5%;
+	}
+
+	#img6 {
+		margin-top: 20px;
+		text-align: center;
+	}
+
+	#order {
+	    width: 90%;
+	    margin:10% auto;
+	}
+	
+	#middle h2 {
+		font-size: 30px;
+	}
+
+	.form {
+		width: 100%;
+		height: 33px;
+	}
+
+	.name-date {
+		margin-top: 5%;
+	}
+
+	.mail-number {
+		margin-top: 12%;
+	}
+
+	.p14 {
+		text-align: left;
+	    font-size: 19px;
+	    color: #c9a131;
+	}
+
+	#book-now{
+	        margin-top: 5%;
+	}
+
+	.button-mid{
+		border: 1px solid white;
+		background-color: #c9a131;
+		text-align: center;
+		padding: 4% 10% 4% 10%;
+		margin: 0% 27%;
+		color: white;
+	}
+	
+	#trang7 {
+		background-image: url(../images/trang7.png);
+		width: auto;
+	}
+
+	#trang7 .trang3a {
+			background-size: 50%;
+	}
+
+	.block-width {
+		padding: 50px 0px;
+	}
+
+	#block-left {
+	    width: 90%;
+	    margin: 5% auto;
+	    text-align: center;
+	}
+
+	#block-mid {
+	    width: 90%;
+	    margin: 15% auto;
+	    text-align: center;
+	}
+
+
+
+	#block-right {
+	    width: 90%;
+	    margin: 15% auto;
+	    text-align: center;
+	}
+
+	.p21 {
+		font-family: 'Yeseva One';
+		text-align: center;
+	    font-size: 21px;
+	    color: #fefefe;
+	}
+
+	.p16b {
+		font-family: 'Lato';
+		text-align: center;
+	    font-size: 16px;
+	    color: #ffffff;
+	}
+
+	.icon-size {
+		padding-top: 50px;
+	    width: 250px;
+	    display: table;
+	    margin: 0px auto;
+	}
+	.zero {
+		padding-top: 15%;
+	}
+}
